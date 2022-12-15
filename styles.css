@@ -1,0 +1,16 @@
+.div-test {
+    width: 80%;
+    height: 90%;
+    margin: 30px;
+    animation: all 3s ease-in-out;
+    transform: rotate(-5deg);
+    box-shadow: 7px 5px 20px 5px rgba(255, 87, 255, 0.413);
+}
+
+.div-test img{
+    height: 100%;
+}
+
+.div-test:hover {
+    transform: rotate(3deg) scale(1.2)
+}
