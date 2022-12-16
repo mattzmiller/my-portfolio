@@ -1,3 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.custom-nav{
+
+}
+
 .img-wrapper {
   width: 80%;
   height: 70%;
@@ -130,7 +138,16 @@ p {
 }
 
 .github-color {
-    width: 40px;
-    height: 40px;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
+
+.custom-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.custom-nav a {
     margin: 0 10px;
-  }
+}
