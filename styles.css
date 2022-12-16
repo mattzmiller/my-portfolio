@@ -1,16 +1,64 @@
-.div-test {
+.img-wrapper {
     width: 80%;
-    height: 90%;
+    height: 70%;
     margin: 30px;
     animation: all 3s ease-in-out;
     transform: rotate(-5deg);
     box-shadow: 7px 5px 20px 5px rgba(255, 87, 255, 0.413);
 }
 
-.div-test img{
+.img-wrapper img{
     height: 100%;
 }
 
-.div-test:hover {
+.img-wrapper:hover {
     transform: rotate(3deg) scale(1.2)
+}
+
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: #2994D1;
+	fill: transparent;
+	stroke-width: 1px;
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
 }
