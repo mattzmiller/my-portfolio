@@ -106,6 +106,7 @@
             , nice to meet you!
           </h1>
           <p
+            style="color: rgb(55, 69, 124)"
             class="mb-80 mx-auto leading-normal text-base md:text-2xl mb-8 text-center md:text-left"
           >
             Full-stack software engineer
@@ -117,10 +118,9 @@
           </svg>
         </div>
 
-
         <!--Project Section-->
         <div
-          class="grid grid-rows-2 grid-cols-1 grid-row-flow gap-y-24 md:grid-cols-2"
+          class="grid grid-rows-2 grid-cols-1 grid-row-flow gap-y-24 lg:grid-cols-2"
         >
           <div
             class="mx-auto col-start-1 col-end-1 w-full xl:w-5/5 p-16 overflow-hidden"
@@ -129,7 +129,13 @@
               id="img-wrapper-1"
               class="img-wrapper hover:scale-105 duration-700 ease-in-out hover:rotate-6"
             >
-              <img class="" src="chatlite.png" alt="" />
+              <div class="hidden hidden-project-description-1">
+                <p>Full-stack web app that lets you chat with other current online users.</p>
+                <p>Built with the MERN stack and socket.io to enable real-time messaging between the two online users.</p>
+                <p>For testing the app, please sign up a test user account in the incognito tab at the same time you're logged in. An online user will pop up on the right. By clicking on the box you can create a chat space with the other user.</p>
+                <p style="padding: 0; transform: translateY(-30px); display: inline-block"><a class="fancy-a" target=”_blank” href="https://c-lite.herokuapp.com/"><button>Click Here for the App</button></a></p><a style="margin: 0 0 15px 20px; display: inline-block" target=”_blank” href="https://github.com/mzecic/ChatLite" ><img style="width: 40px" class="github-color" src="github-icon-color.png" alt=""></a>
+              </div>
+              <img id="img-1" class="" src="chatlite.png" alt="" />
             </div>
           </div>
           <div
@@ -139,7 +145,19 @@
               id="img-wrapper-2"
               class="img-wrapper hover:scale-105 duration-700 ease-in-out hover:rotate-6"
             >
-              <img style="width: 100%" class="" src="rendezvous.png" alt="" />
+              <div class="hidden hidden-project-description-2">
+                <p>Full-stack marketplace web app that lets you perform full CRUD operations with simple and intuitive UI</p>
+                <p>Features authentication and authorization using Django’s built in tools. It's using Google maps API to
+                  track location for each user in the extended user model.</p>
+                <p style="padding: 0; transform: translateY(-30px); display: inline-block"><a class="fancy-a" target=”_blank” href="https://rendez-vous.herokuapp.com/"><button>Click Here for the App</button></a></p><a style="margin: 0 0 15px 20px; display: inline-block" target=”_blank” href="https://github.com/mzecic/rendezvous" ><img style="width: 40px" class="github-color" src="github-icon-color.png" alt=""></a>
+              </div>
+              <img
+                id="img-2"
+                style="width: 100%"
+                class=""
+                src="rendezvous.png"
+                alt=""
+              />
             </div>
             <!-- <img class="w-full md:w-5/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6" src="macbook.svg" /> -->
           </div>
@@ -150,7 +168,12 @@
               id="img-wrapper-3"
               class="img-wrapper hover:scale-105 duration-700 ease-in-out hover:rotate-6"
             >
-              <img class="" src="e-manager.png" alt="" />
+              <div class="hidden hidden-project-description-3">
+                <p>Full CRUD web-app that lets you create, view, update, and delete employee information.
+                  Built with the MEN stack. Used Google O-Auth v2 for authentication.</p>
+                <p style="padding: 0; transform: translateY(-30px); display: inline-block"><a class="fancy-a" target=”_blank” href="https://e-manager.onrender.com/"><button>Click Here for the App</button></a></p><a style="margin: 0 0 15px 20px; display: inline-block" target=”_blank” href="https://github.com/mzecic/e-manager" ><img style="width: 40px" class="github-color" src="github-icon-color.png" alt=""></a>
+              </div>
+              <img id="img-3" class="" src="e-manager.png" alt="" />
             </div>
             <!-- <img class="w-full md:w-5/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6" src="macbook.svg" /> -->
           </div>
@@ -161,7 +184,11 @@
               id="img-wrapper-4"
               class="img-wrapper hover:scale-105 duration-700 ease-in-out hover:rotate-6"
             >
-              <img class="" src="blackjack.png" alt="" />
+              <div class="hidden hidden-project-description-4">
+                <p>Simple BlackJack web game made using DOM manipulation. Features basic animations and states tracking to determine the game flow.</p>
+                <p style="padding: 0; transform: translateY(-30px); display: inline-block"><a class="fancy-a" target=”_blank” href="https://mzecic.github.io/BlackJack-Project/"><button>Click Here for the App</button></a></p><a style="margin: 0 0 15px 20px; display: inline-block" target=”_blank” href="https://github.com/mzecic/BlackJack-Project" ><img style="width: 40px" class="github-color" src="github-icon-color.png" alt=""></a>
+              </div>
+              <img id="img-4" class="" src="blackjack.png" alt="" />
             </div>
             <!-- <img class="w-full md:w-5/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6" src="macbook.svg" /> -->
           </div>
