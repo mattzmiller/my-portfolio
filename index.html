@@ -134,13 +134,13 @@
           id="my-projects"
           class="text-indigo-300 mx-auto my-4 text-4xl md:text-4xl md:text-center sm:text-3xl text-white opacity-75 font-bold leading-tight text-center md:text-left"
         >
-          My Projects
+          Projects
         </h2>
         <div
-          class="grid grid-rows-2 grid-cols-1 grid-row-flow gap-y-24 lg:grid-cols-2"
+          class="grid grid-rows-4 grid-cols-1 grid-row-flow gap-y-24 lg:grid-cols-2 lg:grid-rows-2"
         >
           <div
-            class="mx-auto col-start-1 col-end-1 w-full xl:w-5/5 p-16 overflow-hidden"
+            class="row-start-1 row-end-1 mx-auto col-start-2 col-end-2 lg:col-start-1 lg:col-end-1 w-full xl:w-5/5 p-16 overflow-hidden"
           >
             <div
               id="img-wrapper-1"
@@ -242,7 +242,7 @@
             <!-- <img class="w-full md:w-5/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6" src="macbook.svg" /> -->
           </div>
           <div
-            class="mx-auto col-start-1 col-end-1 w-full xl:w-5/5 p-16 overflow-hidden"
+            class="mx-auto row-start-3 row-end-3 col-start-2 col-end-2 lg:col-start-1 lg:col-end-1 lg:row-start-2 lg:row-end-2 w-full xl:w-5/5 p-16 overflow-hidden"
           >
             <div
               id="img-wrapper-3"
@@ -284,7 +284,7 @@
             <!-- <img class="w-full md:w-5/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6" src="macbook.svg" /> -->
           </div>
           <div
-            class="mx-auto col-start-2 col-end-2 w-full xl:w-5/5 p-16 overflow-hidden"
+            class="mx-auto row-start-4 row-end-4 col-start-2 col-end-2 lg:row-start-2 lg:row-end-2 w-full xl:w-5/5 p-16 overflow-hidden"
           >
             <div
               id="img-wrapper-4"
@@ -332,7 +332,7 @@
         id="my-skills"
         class="text-indigo-300 mx-auto my-4 text-4xl md:text-4xl md:text-center sm:text-3xl text-white opacity-75 font-bold leading-tight text-center md:text-left"
       >
-        My Skills
+        Skills
       </h2>
       <div class="carousel">
         <a class="carousel-item" href="#one!"
@@ -363,6 +363,45 @@
         <a class="carousel-item" href="#five!"><img src="express.png" /></a>
         <a class="carousel-item" href="#five!"><img src="node.js.png" /></a>
       </div>
+    </div>
+    <div class="container">
+      <h2
+        class="text-indigo-300 mx-auto my-4 text-4xl md:text-4xl md:text-center sm:text-3xl text-white opacity-75 font-bold leading-tight text-center md:text-left"
+      >
+        About
+      </h2>
+      <div class="about-flex">
+        <div id="about" class="about">
+          <p class="text-indigo-300">
+            I'm a full-stack software engineer. I thrive on creating clean UI
+            websites, developing full-stack web-apps, solving problems, and
+            collaborating with others. In addition to computers and software, I
+            love music, biking, and tinkering with tech.
+          </p>
+        </div>
+        <div class="img-circle-wrapper">
+          <img class="bio-img" src="headshot.JPG" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="resume">
+      <a
+        target="_blank"
+        class="inline-block text-indigo-300 no-underline hover:text-pink-500 hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out"
+        href="https://drive.google.com/file/d/1x_0hjYGLSfOFR9FRdlVP7tVbAKrFsCz_/view?usp=sharing"
+      >
+        <svg
+          class="fill-current h-12"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 32 32"
+        >
+          <path
+            d="m6.864 3.424c.502-.301 1.136.063 1.136.642 0 .264-.138.509-.365.644-2.476 1.486-4.135 4.197-4.135 7.292 0 4.691 3.808 8.498 8.498 8.498s8.497-3.807 8.497-8.498c0-3.093-1.656-5.803-4.131-7.289-.225-.136-.364-.38-.364-.644 0-.582.635-.943 1.137-.642 2.91 1.748 4.858 4.936 4.858 8.575 0 5.519-4.479 9.998-9.997 9.998s-9.998-4.479-9.998-9.998c0-3.641 1.951-6.83 4.864-8.578zm.831 8.582s2.025 2.021 3.779 3.774c.147.147.339.22.53.22.192 0 .384-.073.531-.22 1.753-1.752 3.779-3.775 3.779-3.775.145-.145.217-.336.217-.526 0-.192-.074-.384-.221-.531-.292-.293-.766-.294-1.056-.004l-2.5 2.499v-10.693c0-.414-.336-.75-.75-.75s-.75.336-.75.75v10.693l-2.498-2.498c-.289-.289-.762-.286-1.054.006-.147.147-.221.339-.222.531 0 .19.071.38.215.524z"
+            fill-rule="nonzero"
+          />
+        </svg>
+      </a>
+      <p class="text-indigo-300">Resume</p>
     </div>
     <script>
       document.addEventListener("DOMContentLoaded", function () {

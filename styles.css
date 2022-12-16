@@ -1,12 +1,9 @@
 html {
-    scroll-behavior: smooth;
-}
-
-.custom-nav{
-
+  scroll-behavior: smooth;
 }
 
 .img-wrapper {
+  border-radius: 1.25rem;
   width: 80%;
   height: 70%;
   margin: 30px;
@@ -16,6 +13,7 @@ html {
 }
 
 .img-wrapper img {
+  border-radius: 1.25rem;
   height: 100%;
 }
 
@@ -90,6 +88,7 @@ html {
   position: absolute;
   z-index: 9;
   background-color: rgba(188, 188, 188, 0.815);
+  border-radius: 1.25rem;
   width: 100%;
   height: 100%;
   overflow: scroll;
@@ -100,6 +99,7 @@ html {
   position: absolute;
   z-index: 9;
   background-color: rgba(188, 188, 188, 0.815);
+  border-radius: 1.25rem;
   width: 100%;
   height: 100%;
   overflow: scroll;
@@ -110,6 +110,7 @@ html {
   position: absolute;
   z-index: 9;
   background-color: rgba(188, 188, 188, 0.815);
+  border-radius: 1.25rem;
   width: 100%;
   height: 100%;
   overflow: scroll;
@@ -120,6 +121,7 @@ html {
   position: absolute;
   z-index: 9;
   background-color: rgba(188, 188, 188, 0.815);
+  border-radius: 1.25rem;
   width: 100%;
   height: 100%;
   overflow: scroll;
@@ -144,10 +146,60 @@ p {
 }
 
 .custom-nav {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .custom-nav a {
-    margin: 0 10px;
+  margin: 0 10px;
+}
+
+.bio-img {
+    display: inline-block;
+    width: 200px;
+    height: 290px;
+    border-radius: 1.25rem;
+    box-shadow: 7px 5px 20px 5px rgba(255, 87, 255, 0.413);
+    margin: 15px;
+    margin-top: 7px;
+    z-index: 2;
+}
+
+.about-flex {
+    display: flex;
+    margin-top: 100px;
+}
+
+.about-flex div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-flex div p {
+    font-size: 1em;
+    margin: 0 20%;
+    /* color: rgb(136, 122, 232); */
+}
+
+.resume {
+    font-size: 1.25rem;
+    border-radius: 1.25rem;
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume a {
+    padding-bottom: 5px;
+}
+
+.resume p {
+    text-align: center;
+    transform: translateX(-5px);
 }
