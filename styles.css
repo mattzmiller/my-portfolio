@@ -12,7 +12,7 @@ html {
   box-shadow: 7px 5px 20px 5px rgba(255, 87, 255, 0.413);
 }
 
-.img-wrapper img {
+.img-wrapper .app-screenshot {
   border-radius: 1.25rem;
   height: 100%;
 }
@@ -192,7 +192,7 @@ p {
 }
 
 .about-flex div {
-  width: 50%;
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -200,7 +200,7 @@ p {
 
 .about-flex div p {
   font-size: 1em;
-  margin: 0 20%;
+  margin: 0 10%;
   /* color: rgb(136, 122, 232); */
 }
 
@@ -223,4 +223,10 @@ p {
 .resume p {
   text-align: center;
   transform: translateX(-5px);
+}
+
+@media (max-width:800px) {
+  .img-wrapper {
+    height: 180px;
+  }
 }
