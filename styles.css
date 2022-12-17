@@ -227,7 +227,7 @@ p {
 
 @media (max-width: 800px) {
   .img-wrapper {
-    height: 180px;
-    width: 330px;
+    height: 150px;
+    width: 300px;
   }
 }
