@@ -18,9 +18,9 @@ html {
   box-shadow: 7px 5px 20px 5px rgba(255, 87, 255, 0.413);
 }
 
-#img-wrapper-1 {
+/* #img-wrapper-1 {
   height: 62%;
-}
+} */
 
 .img-wrapper .app-screenshot {
   border-radius: 1.25rem;
@@ -240,10 +240,6 @@ p {
     width: 250px;
   }
 
-  /* #img-wrapper-1 {
-    height: 70%;
-  } */
-
   .grid-item {
     border-radius: 1.25rem;
     padding: 0 !important;
@@ -265,6 +261,7 @@ p {
 
   .bio-img {
     height: 220px;
+    width: 150px;
   }
 
   .about-flex div p {
