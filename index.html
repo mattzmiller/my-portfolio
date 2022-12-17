@@ -34,15 +34,23 @@
       }
     </style>
   </head>
-
   <body
     class="leading-normal tracking-normal text-indigo-300 m-6 bg-cover bg-fixed"
     style="background-image: url('header.png')"
   >
-    <div class="h-full">
+    <div class="h-full p-0">
       <!--Nav-->
       <div class="w-full container mx-auto">
         <div class="w-full flex items-center justify-between">
+          <div class="mobile-menu">
+            <img style="opacity: 0.7; display: none" width="50px" height="50px" src="menu-icon.png" alt="">
+            <button id="open-menu" >
+              <img class="" style="opacity: 0.7" width="50px" height="50px" src="menu-icon.png" alt="">
+            </button>
+            <button id="close-menu">
+              <img  class="hide" style="color: purple" width="45px" height="45px" src="menu-close-icon-2.png" alt="">
+            </button>
+          </div>
           <div class="custom-nav">
             <a
               class="flex items-center text-sky-400 no-underline hover:no-underline font-bold text-2xl lg:text-2xl"
@@ -97,7 +105,26 @@
           </div>
         </div>
       </div>
-
+      <div class="mobile-menu-el hide">
+        <a
+        class="mb-1 flex items-center text-sky-400 no-underline hover:no-underline font-bold text-1xl lg:text-2xl"
+        href="#my-projects"
+      >
+        Projects
+      </a>
+      <a
+        class="mb-1 flex items-center text-indigo-350 no-underline hover:no-underline font-bold text-1xl lg:text-2xl"
+        href="#my-skills"
+      >
+        Skills
+      </a>
+      <a
+        class="mb-1 flex items-center text-indigo-350 no-underline hover:no-underline font-bold text-1xl lg:text-2xl"
+        href="#about"
+      >
+        About
+      </a>
+      </div>
       <!--Main-->
       <div
         class="container pt-24 md:pt-36 mx-auto flex flex-wrap flex-col md:flex-row items-center"
@@ -140,8 +167,8 @@
           class="grid grid-rows-4 grid-cols-1 grid-row-flow gap-y-24 lg:grid-cols-2 lg:grid-rows-2"
         >
           <div
-            style="padding: 0"
-            class="row-start-1 row-end-1 mx-auto col-start-2 col-end-2 lg:col-start-1 lg:col-end-1 w-full xl:w-5/5 p-16 overflow-hidden"
+            style="padding: 40px"
+            class="grid-item row-start-1 row-end-1 mx-auto col-start-2 col-end-2 lg:col-start-1 lg:col-end-1 w-full xl:w-5/5 p-16 overflow-hidden"
           >
             <div
               id="img-wrapper-1"
@@ -200,8 +227,8 @@
             </div>
           </div>
           <div
-            style="padding: 0"
-            class="mx-auto col-start-2 col-end-2 w-full xl:w-5/5 p-16 overflow-hidden"
+            style="padding: 40"
+            class="grid-item mx-auto col-start-2 col-end-2 w-full xl:w-5/5 p-16 overflow-hidden"
           >
             <div
               id="img-wrapper-2"
@@ -256,8 +283,8 @@
             <!-- <img class="w-full md:w-5/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6" src="macbook.svg" /> -->
           </div>
           <div
-            style="padding: 0"
-            class="mx-auto row-start-3 row-end-3 col-start-2 col-end-2 lg:col-start-1 lg:col-end-1 lg:row-start-2 lg:row-end-2 w-full xl:w-5/5 p-16 overflow-hidden"
+            style="padding: 40"
+            class="grid-item mx-auto row-start-3 row-end-3 col-start-2 col-end-2 lg:col-start-1 lg:col-end-1 lg:row-start-2 lg:row-end-2 w-full xl:w-5/5 p-16 overflow-hidden"
           >
             <div
               id="img-wrapper-3"
@@ -307,8 +334,8 @@
             <!-- <img class="w-full md:w-5/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6" src="macbook.svg" /> -->
           </div>
           <div
-            style="padding: 0"
-            class="mx-auto row-start-4 row-end-4 col-start-2 col-end-2 lg:row-start-2 lg:row-end-2 w-full xl:w-5/5 p-16 overflow-hidden"
+            style="padding: 40"
+            class="grid-item mx-auto row-start-4 row-end-4 col-start-2 col-end-2 lg:row-start-2 lg:row-end-2 w-full xl:w-5/5 p-16 overflow-hidden"
           >
             <div
               id="img-wrapper-4"
