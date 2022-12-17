@@ -92,6 +92,12 @@ html {
   width: 100%;
   height: 100%;
   overflow: scroll;
+  scrollbar-width: none;
+}
+
+.hidden-project-description-1::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 .hidden-project-description-2 {
@@ -105,6 +111,11 @@ html {
   overflow: scroll;
 }
 
+.hidden-project-description-2::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
 .hidden-project-description-3 {
   display: inline;
   position: absolute;
@@ -116,6 +127,11 @@ html {
   overflow: scroll;
 }
 
+.hidden-project-description-3::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
 .hidden-project-description-4 {
   display: inline;
   position: absolute;
@@ -125,6 +141,11 @@ html {
   width: 100%;
   height: 100%;
   overflow: scroll;
+}
+
+.hidden-project-description-4::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 p {
@@ -155,51 +176,51 @@ p {
 }
 
 .bio-img {
-    display: inline-block;
-    width: 200px;
-    height: 290px;
-    border-radius: 1.25rem;
-    box-shadow: 7px 5px 20px 5px rgba(255, 87, 255, 0.413);
-    margin: 15px;
-    margin-top: 7px;
-    z-index: 2;
+  display: inline-block;
+  width: 200px;
+  height: 290px;
+  border-radius: 1.25rem;
+  box-shadow: 7px 5px 20px 5px rgba(255, 87, 255, 0.413);
+  margin: 15px;
+  margin-top: 7px;
+  z-index: 2;
 }
 
 .about-flex {
-    display: flex;
-    margin-top: 100px;
+  display: flex;
+  margin-top: 100px;
 }
 
 .about-flex div {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-flex div p {
-    font-size: 1em;
-    margin: 0 20%;
-    /* color: rgb(136, 122, 232); */
+  font-size: 1em;
+  margin: 0 20%;
+  /* color: rgb(136, 122, 232); */
 }
 
 .resume {
-    font-size: 1.25rem;
-    border-radius: 1.25rem;
-    margin-top: 100px;
-    display: flex;
-    width: 100%;
-    height: 250px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  font-size: 1.25rem;
+  border-radius: 1.25rem;
+  margin-top: 100px;
+  display: flex;
+  width: 100%;
+  height: 250px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .resume a {
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 .resume p {
-    text-align: center;
-    transform: translateX(-5px);
+  text-align: center;
+  transform: translateX(-5px);
 }
