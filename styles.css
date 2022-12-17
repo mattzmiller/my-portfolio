@@ -225,8 +225,9 @@ p {
   transform: translateX(-5px);
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .img-wrapper {
     height: 180px;
+    width: 330px;
   }
 }
