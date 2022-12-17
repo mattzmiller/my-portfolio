@@ -9,42 +9,58 @@ const descriptionDiv4 = document.querySelector(".hidden-project-description-4");
 
 firstWrapper.addEventListener("mouseover", function (e) {
   descriptionDiv1.classList.toggle("hidden");
-  document.getElementById("img-1").style["filter"] = "blur(4px)";
+  if (window.innerWidth > 800) {
+    document.getElementById("img-1").style["filter"] = "blur(4px)";
+  }
 });
 
 firstWrapper.addEventListener("mouseout", function (e) {
   descriptionDiv1.classList.toggle("hidden");
-  document.getElementById("img-1").style["filter"] = "blur(0px)";
+  if (window.innerWidth > 800) {
+    document.getElementById("img-1").style["filter"] = "blur(0px)";
+  }
 });
 
 secondWrapper.addEventListener("mouseover", function (e) {
   descriptionDiv2.classList.toggle("hidden");
-  document.getElementById("img-2").style["filter"] = "blur(4px)";
+  if (window.innerWidth > 800) {
+    document.getElementById("img-2").style["filter"] = "blur(4px)";
+  }
 });
 
 secondWrapper.addEventListener("mouseout", function (e) {
   descriptionDiv2.classList.toggle("hidden");
-  document.getElementById("img-2").style["filter"] = "blur(0px)";
+  if (window.innerWidth > 800) {
+    document.getElementById("img-2").style["filter"] = "blur(0px)";
+  }
 });
 
 thirdWrapper.addEventListener("mouseover", function (e) {
   descriptionDiv3.classList.toggle("hidden");
-  document.getElementById("img-3").style["filter"] = "blur(4px)";
+  if (window.innerWidth > 800) {
+    document.getElementById("img-3").style["filter"] = "blur(4px)";
+  }
 });
 
 thirdWrapper.addEventListener("mouseout", function (e) {
   descriptionDiv3.classList.toggle("hidden");
-  document.getElementById("img-3").style["filter"] = "blur(0px)";
+  if (window.innerWidth > 800) {
+    document.getElementById("img-3").style["filter"] = "blur(0px)";
+  }
 });
 
 fourthWrapper.addEventListener("mouseover", function (e) {
   descriptionDiv4.classList.toggle("hidden");
-  document.getElementById("img-4").style["filter"] = "blur(4px)";
+  if (window.innerWidth > 800) {
+    document.getElementById("img-4").style["filter"] = "blur(4px)";
+  }
 });
 
 fourthWrapper.addEventListener("mouseout", function (e) {
   descriptionDiv4.classList.toggle("hidden");
-  document.getElementById("img-4").style["filter"] = "blur(0px)";
+  if (window.innerWidth > 800) {
+    document.getElementById("img-4").style["filter"] = "blur(0px)";
+  }
 });
 
 // mobile-menu
